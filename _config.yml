@@ -1,6 +1,6 @@
 # Site settings
 title: Ankush
-email: 
+email: ankush@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I write security stuffs.
 baseurl: "" # the subpath of your site, e.g. /blog/
