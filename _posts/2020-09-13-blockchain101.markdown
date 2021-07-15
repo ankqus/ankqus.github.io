@@ -35,7 +35,7 @@ A transaction is validated before broadcasted. It is propagated usually by using
 Miners are those who are listening for the transactions verify and include this transaction in the next block to be mined. Miners race to find a new block and gets rewarded.
 1. New block found:<br>
 Once a miner solves the POW problem(puzzle), the newly mined block is brodcasted to the network. The nodes verify the block and propagate the block further, and confirmations start to generate.
-<p>Once the block is generated it now becomes the part of blockchain(ledger) and the next block links itself cryptographically back to this block. The link is called a hash point.
+<p>Once the block is generated it now becomes the part of blockchain(ledger) and the next block links itself cryptographically back to this block. The link is called a hash point.</p>
 <img src="https://i.imgur.com/K08Z1r7.jpg">
 
 #### Types of blockchain 
