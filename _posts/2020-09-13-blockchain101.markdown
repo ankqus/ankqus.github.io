@@ -27,13 +27,13 @@ The first thing that I do whenever studying a new domain is I look into every ne
 #### How blockchain works?
  In simple words, how a blockchain works is all about how a block is generated in the network. In this process node plays a vital role, nodes are either miners who create new blocks and block signers who validate and digitally sign the transactions. Decision to make which node will append the next block in blockchain is made by consensus mechanism.
  Blockchain process involves 5 simple scheme for creating blocks:
-1. Transaction established
+1. Transaction established<br>
 A node starts a transaction by first creating it and digitally signing it with a private key. The transaction data structures usually consists of header, address, value.
-1. Validating and broadcasting
+1. Validating and broadcasting<br>
 A transaction is validated before broadcasted. It is propagated usually by using data-dissemination protocol.
-1. Find new block
+1. Find new block<br>
 Miners are those who are listening for the transactions verify and include this transaction in the next block to be mined. Miners race to find a new block and gets rewarded.
-1. New block found
+1. New block found<br>
 Once a miner solves the POW problem(puzzle), the newly mined block is brodcasted to the network. The nodes verify the block and propagate the block further, and confirmations start to generate.
 <p>Once the block is generated it now becomes the part of blockchain(ledger) and the next block links itself cryptographically back to this block. The link is called a hash point.
 <img src="https://i.imgur.com/K08Z1r7.jpg">
