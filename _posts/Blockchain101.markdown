@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blockchain 101"
-date:   2017-09-13 11:33:00
+date:   2020-09-13 11:33:00
 categories: Composer
 highlight: false
 image: https://static.coindesk.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-22-at-7.24.42-PM.png
