@@ -42,3 +42,4 @@ Once a miner solves the POW problem(puzzle), the newly mined block is brodcasted
 There are basically 4 main types of blockchain: public blockchains, private blockchains, semi-private blockchains and sidechains. We will briefly describe each types.
 1. Public blockchain:<br>
 As the name itself suggests these are publically open sourced. Anyone can participate as a node in the decision-making process.
+1. Private blockchain:<br>
