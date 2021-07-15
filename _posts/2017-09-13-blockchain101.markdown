@@ -4,7 +4,6 @@ title:  "Blockchain 101"
 date:   2017-09-13 11:33:00
 categories: Composer
 highlight: false
-color: black
 image: https://i.imgur.com/zGUx3UX_d.webp?maxwidth=640&shape=thumb&fidelity=medium
 description: "Blockchain, the world of decentralization."
 ---
