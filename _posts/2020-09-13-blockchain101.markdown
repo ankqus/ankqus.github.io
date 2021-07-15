@@ -8,9 +8,9 @@ description: "Blockchain, the world of decentralization."
 ---
 
 ###### Lets talk blockchain- Yet if you don't know what blockchain is then I guess you are in a right place, of course. Firstly let us start with some basic introduction of blockchain, some terminologies; and then we will jump into the main portion.
-### What is blockchain?
+#### What is blockchain?
 Blockchain is a ledger of transactions where blocks keep goes on adding when new transaction occurs on blockchain. It is a peer-to-peer(P2P) network that is cryptographically secured and immutable.
-### Some basic terminologies
+#### Some basic terminologies
 The first thing that I do whenever studying a new domain is I look into every new terminologies that I haven't heard before about that domain. So before jumping into the main section lets look into some basic terminologies which you will stumble upon frequently.
 - P2P: It means every nodes on the network are interconnected to each other with no central governing body.
 - Distributed ledger: It means that a ledger is spread across all over the network and each node hold on to a copy of the complete ledger. Blockchain is based on this technology. 
