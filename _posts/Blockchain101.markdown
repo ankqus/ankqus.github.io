@@ -5,7 +5,7 @@ date:   2020-09-13 11:33:00
 categories: Blockchain
 highlight: false
 image: https://static.coindesk.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-22-at-7.24.42-PM.png
-description: "Blockchain is P2P, distributed ledger that is cryptographically secure, append only,immutable, and updateable only via consensus."
+description: "The world of decentralization"
 
 
 ###### Composer를 사용하여 날코딩의 PHP를 모던한 PHP로
