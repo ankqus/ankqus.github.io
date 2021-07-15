@@ -4,6 +4,7 @@ title:  "Angular로 디지털 시계 만들기"
 date:   2017-10-31 09:30:00
 categories: angular
 highlight: false
+color: red
 image: https://image.prntscr.com/image/qIQim7bJQH6Zc7TmNL_ExA.jpeg
 description: Angular4 프로젝트로  5분만에 만들수 있는 디지털 시계
 ---
