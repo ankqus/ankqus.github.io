@@ -39,5 +39,4 @@ Once a miner solves the POW problem(puzzle), the newly mined block is brodcasted
 <img src="https://i.imgur.com/K08Z1r7.jpg">
 
 #### Types of blockchain 
-
-
+There are basically 4 main types of blockchain: public blockchains, private blockchains, consortium blockchains and hybrid blockchains
