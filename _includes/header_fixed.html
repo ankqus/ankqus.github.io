@@ -15,9 +15,7 @@
       {% endif %}
     {% endfor %}
     {% assign sorted_cats = site.categories | sort %}
-    {% for category in sorted_cats %}
-    <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{category[0] | capitalize}}</a>
-    {% endfor %}
+    
   </nav>
   ----
   {{site.pages}}
