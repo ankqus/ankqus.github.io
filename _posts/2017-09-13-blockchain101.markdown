@@ -7,102 +7,18 @@ image: https://i.imgur.com/zGUx3UX_d.webp?maxwidth=640&shape=thumb&fidelity=medi
 description: "Blockchain, the world of decentralization."
 ---
 
+Let talk blockchain- Yet if you don't know what blockchain is then I guess you are in a right place, of course. Firstly let us start with some basic introduction of blockchain, some terminologies; and then we will jump into the main portion.
+### What is blockchain?
+Blockchain is a ledger of transactions where blocks keep goes on adding when new transaction occurs on blockchain. It is a peer-to-peer(P2P) network that is cryptographically secured and immutable.
+### Some basic terminologies
+The first thing that I do whenever studying a new domain is I look into every new terminologies that I haven't heard before about that domain. So before jumping into the main section lets look into some basic terminologies which you will stumble upon frequently.
+- P2P: It means every nodes on the network are interconnected to each other with no central governing body.
+- Distributed ledger: It means that a ledger is spread across all over the network and each node hold on to a copy of the complete ledger. Blockchain is based on this technology. 
+- Hashing: It plays a vital role in blockchain. Hashing means converting a plain text into a hashed value using different hash functions. You might have heard *Md5*(Message digest) before, if not its one of among hash functions used in hashing. Similarly there other hash functions as well like SHA(Secure hash algorithm), RIPEMD, Whirlpool, so on and so forth.
+- Consensus: It is an agreement among peers to agree on a propose state or value. It is the backbone of a blockchain.
+- POW(Proof of work): A type of consensus mechanism which is a proof that enough computational rescources have been spent in order to build a valid block.
+- POS(Proof of stack): It is also a type of consensus mechanism which works on the idea that a user has an adequate stake in the system.
+- Smart contracts: It is a software program that runs on blockchain. They run autonomously on behalf of the network participants.
+- Dapps: Dapps are similar to other applications we use in our day-to-day life; the only difference between the typical applications and dapp is, dapp makes use of blockchain whereas typical applications don't. 
+<img src="https://i.imgur.com/AfkzrX0.jpg">
 
-###### Composer를 사용하여 날코딩의 PHP를 모던한 PHP로
-
-Composer를 사용하여 날코딩의 PHP를 모던한 PHP로 쉽게 바꿀수 있다. 
-코드 재사용성을 높이고 패키지를 통해 코드간의 의존성 관계를 정리할 수 있다.  다른 개발자와 협업을 고려한다면 조금씩 바꿔 나가야 할것이다.
-
-
-###### Compoer 설치
-[composer download](https://getcomposer.org/download/) 참고 해서 다운로드 합니다.
-
-
-* Linux 설치
-{% highlight bash %}
-$ curl -sS https://getcomposer.org/installer | php
-{% endhighlight %}
-* Windows 설치
-
-     [Composer-Setup.exe](https://getcomposer.org/Composer-Setup.exe)
-
-
-
-###### Composer init
-프로젝트 폴더에서 composer init 으로 compser.json 을 자동으로 만들어 준다
-{% highlight bash %}
-$ composer init
-{% endhighlight %}
-
-{% highlight bash %}
-
-  Welcome to the Composer config generator
-
-
-This command will guide you through creating your composer.json config.
-
-Package name (<vendor>/<name>) [k3/test]: composer/test
-Description []: description
-Author [, n to skip]: test <test@gmail.com>
-Minimum Stability []: stable
-Package Type []:
-License []:
-
-Define your dependencies.
-
-Would you like to define your dependencies (require) interactively [yes]? yes
-Search for a package:
-Would you like to define your dev dependencies (require-dev) interactively [yes]? yes
-Search for a package:
-
-{
-    "name": "composer/test",
-    "description": "description",
-    "authors": [
-        {
-            "name": "test",
-            "email": "test@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
-}
-
-Do you confirm generation [yes]? yes
-{% endhighlight %}
-
-composer.json 파일이 생성됩니다.
-{% highlight json%}
-{
-    "name": "composer/test",
-    "description": "description",
-    "authors": [
-        {
-            "name": "test",
-            "email": "test@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
-}
-{% endhighlight %}
-
-###### composer.json & compsoer.lock
-
-composer.json 파일을 composer update를 실행하면 의존성에 해당하는 실제버전을 설치하고 그 설치 내역을 composer.lock파일에 정리하게 된다.
-
-서비스 환경에서는 `comsposer install` 를 하여 실제 설치된 패키지를 그대로 설치하게 된다. 
-
-개발 환경에서는 `composer.json`파일로 `composer update` <br/>
-서비스 환경은 `composer.lock`파일로 `composer install`
-하여 같은 패키지가 설치되도록 한다.
-
-
-###### GIT ignore 
-
-`composer update` 를 하게 되면 프로젝트 폴더내에 vender폴더가 생성되고 그안에 패키지를이 설치된다.<br/>
-vender 폴더는  composer install 로 관리 되므로  VCS에서 제외하여야 한다.
-{% highlight bash%}
-gitignore
-/vendor
-{% endhighlight %}
