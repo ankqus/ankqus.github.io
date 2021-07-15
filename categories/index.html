@@ -1,0 +1,15 @@
+---
+layout: page
+title: "Categories"
+---
+
+{% capture categories %}{% for cat in site.categories %}
+{{cat|first}}
+{% endfor %}{% endcapture %}
+{% assign categories = categories | split:' ' | sort %}
+
+<ul>
+  {% for cat in categories %}
+  <li><a href="{{ site.baseurl }}/categories/{{ cat }}/index.html">{{ cat }}-</a></li>
+  {% endfor %}
+</ul>

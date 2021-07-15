@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "웹 디버깅을 위한 피들어(Fiddler)"
+date:   2017-09-28 09:28:00
+categories: Fiddler
+highlight: false
+image: https://image.prntscr.com/image/bGRArygATG_w6IXarcQl-g.jpeg
+description: HTTP와 HTTPS 의 프로토콜을 캡처하고 분석할수 있는 프리웨어 http 디버깅 툴
+---
+
+
+###### Fiddler
+피들러(Fiddler)는 HTTP와 HTTPS 의 프로토콜을 캡처하고 분석할수 있는 프리웨어 http 디버깅 툴입니다.
+
+- 주요특징
+HTTP/HTTPS Traffic Recording
+Web Session Manipulation
+Web Debugging
+Security Testing
+Performance Testing
+Customizing Fiddler
+
+
+###### Fiddler 설치
+
+피들러 사이트([http://www.telerik.com/fiddler](http://www.telerik.com/fiddler))에 접속하여 다운로드 하여 설치하면 된다.
+
+![](https://image.prntscr.com/image/a9Jyh2nkR7qUjP9nPReQKA.png)
+
+
+설치된 화면
+![](https://image.prntscr.com/image/Y1XAJR3OTDmQTwNY0nZ71A.jpeg)
+
+
+확인하고 싶은 Http 통신의 (요청)Request, 응답(Response) 값을 볼 수 있습니다.
+![](https://image.prntscr.com/image/JndsSHO-TbyDNQG-k3vW7A.jpeg)
+
+
+###### Fiddler 원격 패킷 (스마트폰)
+
+
+Tools > Optioins 선택
+
+`Allow reomte computers to conntect` 을 체크하여준다.
+
+![](https://image.prntscr.com/image/cVG9-Xx2Qduu8ae3MJbXcw.jpeg)
+
+
+스마트폰에  WIFI에 Proxy 설정하기<br>
+
+![](https://image.prntscr.com/image/o5AnciWnTSq2iXlzMs_Dzw.jpeg)
+
+프록시 호스트엔  본인 IP, 프록시 포트엔 Fildder에 설정된 포트(8888기본)을 셋팅하면 된다.

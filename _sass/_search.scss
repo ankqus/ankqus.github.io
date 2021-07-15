@@ -1,0 +1,191 @@
+/* super-search
+Author: Kushagra Gour (http://kushagragour.in)
+MIT Licensed
+*/
+
+.super-search {
+  background-color: $super-search;
+  z-index: 999;
+  transition: 0.2s ease;
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  will-change: transform, opacity;
+}
+.super-search__close-btn {
+  float: right;
+  margin-right: 15px;
+}
+.super-search__input {
+  transition: 0.15s ease-out 150ms;
+}
+.is-active .super-search__input {
+  transform: translateY(0);
+}
+.super-search__results {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  overflow-x: hidden;
+  height: calc(100% - 110px);
+  transition: 0.2s ease;
+}
+.super-search__results.is-hidden {
+  opacity: 0;
+  transform: translateY(-1vh);
+}
+
+.super-search__results > li > a {
+  display: block;
+  position: relative;
+  background-color: #f9f9f9;
+  color: #666;
+  padding: 17px;
+  margin: 12px 14px;
+  box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+}
+.super-search__result-date {
+  color: #BBB;
+  position: absolute;
+  right: 12px;
+}
+.super-search.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/** Search result dropdown **/
+.search__results {
+  display: block;
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  transition: 0.2s ease;
+  position: absolute;
+  width: 100%;
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+  border-radius: 2px;
+  border: 0;
+  z-index: 999;
+}
+.search__results.is-hidden {
+   opacity: 0; 
+   transform: translateY(-1vh); 
+   display: none; 
+}
+.search__results > li {
+  border-top: 1px solid #f0f0f0;
+  padding: 10px 0;
+}
+.search__results > li > a {
+  padding: 10px;
+}
+.search__result-date {
+  font-size: 12px;
+  color: #BBB;
+  position: absolute;
+  right: 12px;
+}
+
+
+
+
+.devsite-popout {
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24),inset 0 4px 6px -4px rgba(0,0,0,.24);
+  margin-top: 57px;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+  position: absolute;
+  transition: transform .2s,visibility .2s;
+  transform: translateY(0);
+  width: 100%;
+  z-index: 2;
+}
+
+.devsite-popout-closed {
+  transform: translateY(-110%);
+  visibility: hidden;
+}
+
+
+.devsite-suggest-results {
+  padding: 16px 0 16px 72px;
+}
+
+.devsite-suggest-category,.devsite-suggest-project {
+  color: #757575;
+  font-size: 12px;
+}
+
+.devsite-suggest-category:not(:first-child),.devsite-suggest-project:not(:first-child) {
+  border-top: 1px solid #ebebeb;
+  margin: 8px 0 0;
+  padding-top: 12px;
+}
+
+.devsite-suggest-item a {
+  color: #212121;
+  display: block;
+  margin-left: -8px;
+  outline: 0;
+  padding: 8px;
+  transition: background .2s;
+}
+
+.devsite-suggest-item.goog-menuitem-highlight a,.devsite-suggest-item a:focus {
+  background: #f7f7f7;
+  text-decoration: none;
+}
+
+.devsite-suggest-item.goog-menuitem-highlight {
+  margin-left: -8px;
+  padding-left: 8px;
+}
+
+.devsite-suggest-item b {
+  font-weight: 500;
+}
+
+
+.devsite-suggest-footer {
+  margin-bottom: -16px;
+}
+
+
+.devsite-suggestion-fragment+.devsite-suggestion-fragment::before {
+  content: "|";
+  margin: 0 8px;
+}
+
+@media screen and (min-width:720px) {
+  .devsite-popout {
+      max-width: 500px;
+    margin-top:59px;
+    margin-left: -64px;
+    margin-right: 15px;
+    width: calc(100% + 120px);
+    right:0;
+  }
+
+  .devsite-header-billboard-search-wrapper .devsite-popout {
+    margin-left: -32px;
+  }
+
+ 
+
+  .devsite-suggest-category label {
+    font: 14px/22px Roboto,sans-serif;
+  }
+}
+
+
+@media screen and (min-width:850px) {
+  .devsite-popout {
+    margin-top: 56px;
+  }
+}

@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "NPM 소개와 설치"
+date:   2017-10-11 09:28:00
+categories: npm
+highlight: false
+image: https://image.prntscr.com/image/reX6B1XFQyaZmKADlnon6A.jpeg
+description: "Node.js에서 사용가능한 모듈들을 패키지화시켜 모아놓은 것이다. "
+---
+
+
+#### NPM이란?
+npm이란 Node Package Modules의 약자다. <br>
+
+Node.js에서 사용가능한 모듈들을 패키지화시켜 모아놓은 것이다. <br>
+사용하고자 하는 패키지를 찾아서 다운받아 사용할수 있는 곳으로 패키지들간의 의존성을 관리해준다.
+![](https://image.prntscr.com/image/FczZq6dGRKSsZI-B3NIMyQ.jpeg)
+
+
+#### NPM 설치하기
+node.js를 설치하면 자동으로 설치된다. <br>
+[node.js 사이트](https://nodejs.org)
+![](https://image.prntscr.com/image/eHSD69H8TEGZRSvU7UnxSw.jpeg)
+
+#### NPM 사용하기
+**node.js 버전체크**<br>
+![](https://image.prntscr.com/image/FcRc8WMSTwKTt48deTr-tQ.jpeg)
+
+**npm 버전체크**<br>
+![](https://image.prntscr.com/image/CeLWOfWgQGiU3dIKYAj_9A.jpeg)
+
+**패키지 설치**<br>
+npm install -g <패키지><br>
+![](https://image.prntscr.com/image/mWg4LsK4RS25E1aIZZheFA.jpeg)<br>
+- --save | -s  = dependencies
+- --devDependencies | -D = devDependencies
+- -g = global package
+
+4. 패키지 업데이트
+npm update <패키지>
+
+
+
+
