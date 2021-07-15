@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Composer를 통한 패키지 설치및 의존성 관리하기"
+title:  "Blockchain 101"
 date:   2017-09-13 11:33:00
 categories: Composer
 highlight: false
-image: https://getcomposer.org/img/logo-composer-transparent5.png
+image: https://static.coindesk.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-22-at-7.24.42-PM.png
 description: "Composer를 사용하여 코드 재사용성을 높이고 패키지를 통해 코드간의 의존성 관계를 정리할 수 있다."
 ---
 
