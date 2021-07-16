@@ -4,5 +4,4 @@ title: About
 permalink: /about/
 ---
 
-###### I'm Ankush. I am a core developer and I do security stuffs. I consider this blog space to share all my interesting findings that I am encountered so far.
-I am also a student of martial arts.
+###### My name is Ankush. I'm a core developer who specializes in security. I intend to use this blog space to share all of the interesting findings I've made so far. I am also a martial arts student.
