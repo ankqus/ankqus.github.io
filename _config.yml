@@ -19,14 +19,12 @@ pagination_type: default  # values [ ops, default ]
 
 more_vert:
   option1:
-    name: Cool Option 1
-    link: www.myawesomelink.com
+    name: Github
+    link: https://github.com/ankusth
   option2:
-    name: Cool Option 2
-    link: www.myawesomelink.com
-  option3:
-    name: Cool Option 3
-    link: www.myawesomelink.com
+    name: Twitter
+    link: https://twitter.com/ankusth
+  
 
 disqus: false
 disqus_shortname: 'gdgmanagua'
