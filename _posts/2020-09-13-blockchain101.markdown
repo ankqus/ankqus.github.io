@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Blockchain 101"
+date:   2020-09-13 11:33:00
+highlight: false
+image: https://i.imgur.com/zGUx3UX_d.webp?maxwidth=640&shape=thumb&fidelity=medium
+description: "Blockchain, the world of decentralization."
+---
+
 ###### Let's talk blockchain- Yet if you don't know what blockchain is then I guess you are in a right place, of course. Firstly let us start with some basic introduction of blockchain, some terminologies; and then we will jump into the main portion. So, let’s get started.
 #### What is blockchain?
 Blockchain is a ledger of transactions where blocks keep goes on adding when a new transaction occurs on the blockchain. It is a peer-to-peer(P2P) network that is cryptographically secured and immutable.
