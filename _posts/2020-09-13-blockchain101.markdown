@@ -42,7 +42,7 @@ The CAP theorem states that any distributed system cannot have consistency, avai
 - **P**artition tolerance
 <img src="https://hazelcast.com/wp-content/uploads/2020/06/cap-theorem-diagram-800x753.png" width="300px">
 1. Consistency:<br> It is a property that ensures that all nodes in a distributed system have a single, current, and identical copy of data.</br>
-2. Availability: <br>It means that the nodes in the system are up, accessible for use, and are accepting incoming requests and responding with data without any failures as and when required. In simple words, data is available at each node and the nodes are responding to requests. The potential of availability, in Amazon’s paper on Dynamo, is explained as follows.</br>
+2. Availability: <br>It means that the nodes in the system are up, accessible for use, and are accepting incoming requests and responding with data without any failures as and when required. In simple words, data is available at each node and the nodes are responding to requests. The potential of availability, in Amazon’s paper on Dynamo, is explained as follows.
 > “For example, customers should be able to view and add items to their shopping cart even if disks are failing, network routes are flapping, or data centers are being destroyed by tornados.”
 
 3. Partition tolerance:<br>It ensures that if a group of nodes is unable to communicate with other nodes due to network failures, the distributed system continues to operate correctly. This can occur due to network and node failure.
