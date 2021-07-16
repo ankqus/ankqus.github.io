@@ -3,16 +3,16 @@
 Blockchain is a ledger of transactions where blocks keep goes on adding when a new transaction occurs on the blockchain. It is a peer-to-peer(P2P) network that is cryptographically secured and immutable.
 #### Some basic terminologies
 The first thing that I do whenever studying a new domain is I look into every new terminologies that I haven't heard before about that domain. So before jumping into the main section let's look into some basic terminologies which you will stumble upon frequently.
-- P2P <br>It means every node on the network is interconnected to each other with no central governing body.
-- Distributed ledger:<br> It means that a ledger is spread across all over the network and each node holds on to a copy of the complete ledger. Blockchain is based on this technology. 
-- Hashing <br> It plays a vital role in the blockchain. Hashing means converting plain text into a hashed value using different hash functions. You might have heard *Md5*(Message digest) before, if not it is one of among hash functions used in hashing. Similarly, there are other hash functions as well like SHA(Secure hash algorithm), RIPEMD, Whirlpool, so on and so forth.
-- Burnt <br>"Coin Burn" does not mean what it claims. We don't have to destroy our currency. It simply implies that the coins are transferred to an unspendable and irrecoverable address.
-- Consensus <br> It is an agreement among peers to agree on a proposed state or value. It is the backbone of a blockchain.
-- POW(Proof of work) <br> A type of consensus mechanism which is a proof that enough computational resources have been spent in order to build a valid block.
-- POS(Proof of stack) <br> It is also a type of consensus mechanism which works on the idea that a user has an adequate stake in the system.
--  Web3:<br>This is the vision of the decentralized web that will revolutionize the way we use the internet today. This is the era that will be fully user-centralized without any involvement of a single authority.
-- Smart contracts <br> It is a software program that runs on blockchain. They run autonomously on behalf of the network participants.
-- Dapps <br> Dapps are similar to other applications we use in our day-to-day life; the only difference between the typical applications and Dapp is, Dapp makes use of blockchain whereas typical applications don't. 
+- P2P: It means every node on the network is interconnected to each other with no central governing body.
+- Distributed ledger: It means that a ledger is spread across all over the network and each node holds on to a copy of the complete ledger. Blockchain is based on this technology. 
+- Hashing: It plays a vital role in the blockchain. Hashing means converting plain text into a hashed value using different hash functions. You might have heard *Md5*(Message digest) before, if not it is one of among hash functions used in hashing. Similarly, there are other hash functions as well like SHA(Secure hash algorithm), RIPEMD, Whirlpool, so on and so forth.
+- Burnt: "Coin Burn" does not mean what it claims. We don't have to destroy our currency. It simply implies that the coins are transferred to an unspendable and irrecoverable address.
+- Consensus: It is an agreement among peers to agree on a proposed state or value. It is the backbone of a blockchain.
+- POW(Proof of work): A type of consensus mechanism which is a proof that enough computational resources have been spent in order to build a valid block.
+- POS(Proof of stack): It is also a type of consensus mechanism which works on the idea that a user has an adequate stake in the system.
+-  Web3: This is the vision of the decentralized web that will revolutionize the way we use the internet today. This is the era that will be fully user-centralized without any involvement of a single authority.
+- Smart contracts: It is a software program that runs on blockchain. They run autonomously on behalf of the network participants.
+- Dapps: Dapps are similar to other applications we use in our day-to-day life; the only difference between the typical applications and Dapp is, Dapp makes use of blockchain whereas typical applications don't. 
 <img src="https://i.imgur.com/AfkzrX0.jpg">
 - Defi: It is blockchain-based finance that doesn't rely on a third party. Defi is considered to be the killer app of the decentralized revolution.
 - Distributed ledger: Blockchain is a distributed ledger at its core. Blockchain technically falls under the umbrella of shared distributed ledgers. Although all blockchains are fundamentally distributed ledgers, but not all distributed ledgers are necessarily blockchains. A distributed ledger doesn't necessarily consist of blocks of transactions to keep the ledger growing.
