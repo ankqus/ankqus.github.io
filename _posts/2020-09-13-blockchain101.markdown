@@ -30,7 +30,7 @@ The first thing that I do whenever studying a new domain is I look into every ne
  In simple words, how a blockchain works are all about how a block is generated in the network. In this process node plays a vital role, nodes are either miner who creates new blocks and blocks signers who validate and digitally sign the transactions. The decision to make which node will append the next block in a blockchain is made by the consensus mechanism.
  The blockchain process involves 5 simple schemes for creating blocks:
 1. Transaction established <br> A node starts a transaction by first creating it and digitally signing it with a private key. The transaction data structures usually consist of header, address, value.
-1. Validating and broadcasting:<br> A transaction is validated before broadcasted. It is propagated usually by using a data-dissemination protocol.
+1. Validating and broadcasting <br> A transaction is validated before broadcasted. It is propagated usually by using a data-dissemination protocol.
 1. Find a new block <br> Miners are those who are listening for the transactions verify and include this transaction in the next block to be mined. Miners race to find a new block and get rewarded.
 1. New block found <br> Once a miner solves the POW problem(puzzle), the newly mined block is broadcasted to the network. The nodes verify the block and propagate the block further, and confirmations start to generate.
 <p>Once the block is generated it now becomes part of the blockchain(ledger) and the next block links itself cryptographically back to this block. The link is called a hash point.</p>
