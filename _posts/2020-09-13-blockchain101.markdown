@@ -48,7 +48,7 @@ There are basically 4 main types of blockchain: public blockchains, private bloc
 The CAP theorem states that any distributed system cannot have consistency, availability and partition tolerance simultaneously.
 - **C**onsistency
 - **A**vailability
-- **P**artition tolerance
+- **P**artition tolerance <br>
 1. Consistency <br> It is a property that ensures that all nodes in a distributed system have a single, current, and identical copy of data.
 1. Availability <br>It means that the nodes in the system are up, accessible for use, and are accepting incoming requests and responding with data without any failures as and when required. In simple words, data is available at each node and the nodes are responding to requests. The potential of availability, in Amazon’s paper on Dynamo, is explained as follows.
 1. Partition tolerance <br>It ensures that if a group of nodes is unable to communicate with other nodes due to network failures, the distributed system continues to operate correctly. This can occur due to network and node failure.<p>
