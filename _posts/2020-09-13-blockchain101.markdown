@@ -3,16 +3,16 @@
 Blockchain is a ledger of transactions where blocks keep goes on adding when a new transaction occurs on the blockchain. It is a peer-to-peer(P2P) network that is cryptographically secured and immutable.
 #### Some basic terminologies
 The first thing that I do whenever studying a new domain is I look into every new terminologies that I haven't heard before about that domain. So before jumping into the main section let's look into some basic terminologies which you will stumble upon frequently.
-- P2P: <br>It means every node on the network is interconnected to each other with no central governing body.
+- P2P <br>It means every node on the network is interconnected to each other with no central governing body.
 - Distributed ledger:<br> It means that a ledger is spread across all over the network and each node holds on to a copy of the complete ledger. Blockchain is based on this technology. 
-- Hashing:<br> It plays a vital role in the blockchain. Hashing means converting plain text into a hashed value using different hash functions. You might have heard *Md5*(Message digest) before, if not it is one of among hash functions used in hashing. Similarly, there are other hash functions as well like SHA(Secure hash algorithm), RIPEMD, Whirlpool, so on and so forth.
-- Burnt: <br>"Coin Burn" does not mean what it claims. We don't have to destroy our currency. It simply implies that the coins are transferred to an unspendable and irrecoverable address.
-- Consensus:<br> It is an agreement among peers to agree on a proposed state or value. It is the backbone of a blockchain.
-- POW(Proof of work):<br> A type of consensus mechanism which is a proof that enough computational resources have been spent in order to build a valid block.
-- POS(Proof of stack):<br> It is also a type of consensus mechanism which works on the idea that a user has an adequate stake in the system.
+- Hashing <br> It plays a vital role in the blockchain. Hashing means converting plain text into a hashed value using different hash functions. You might have heard *Md5*(Message digest) before, if not it is one of among hash functions used in hashing. Similarly, there are other hash functions as well like SHA(Secure hash algorithm), RIPEMD, Whirlpool, so on and so forth.
+- Burnt <br>"Coin Burn" does not mean what it claims. We don't have to destroy our currency. It simply implies that the coins are transferred to an unspendable and irrecoverable address.
+- Consensus <br> It is an agreement among peers to agree on a proposed state or value. It is the backbone of a blockchain.
+- POW(Proof of work) <br> A type of consensus mechanism which is a proof that enough computational resources have been spent in order to build a valid block.
+- POS(Proof of stack) <br> It is also a type of consensus mechanism which works on the idea that a user has an adequate stake in the system.
 -  Web3:<br>This is the vision of the decentralized web that will revolutionize the way we use the internet today. This is the era that will be fully user-centralized without any involvement of a single authority.
-- Smart contracts:<br> It is a software program that runs on blockchain. They run autonomously on behalf of the network participants.
-- Dapps:<br> Dapps are similar to other applications we use in our day-to-day life; the only difference between the typical applications and Dapp is, Dapp makes use of blockchain whereas typical applications don't. 
+- Smart contracts <br> It is a software program that runs on blockchain. They run autonomously on behalf of the network participants.
+- Dapps <br> Dapps are similar to other applications we use in our day-to-day life; the only difference between the typical applications and Dapp is, Dapp makes use of blockchain whereas typical applications don't. 
 <img src="https://i.imgur.com/AfkzrX0.jpg">
 - Defi: It is blockchain-based finance that doesn't rely on a third party. Defi is considered to be the killer app of the decentralized revolution.
 - Distributed ledger: Blockchain is a distributed ledger at its core. Blockchain technically falls under the umbrella of shared distributed ledgers. Although all blockchains are fundamentally distributed ledgers, but not all distributed ledgers are necessarily blockchains. A distributed ledger doesn't necessarily consist of blocks of transactions to keep the ledger growing.
@@ -20,19 +20,19 @@ The first thing that I do whenever studying a new domain is I look into every ne
 #### How blockchain works?
  In simple words, how a blockchain works are all about how a block is generated in the network. In this process node plays a vital role, nodes are either miner who creates new blocks and blocks signers who validate and digitally sign the transactions. The decision to make which node will append the next block in a blockchain is made by the consensus mechanism.
  The blockchain process involves 5 simple schemes for creating blocks:
-1. Transaction established:<br> A node starts a transaction by first creating it and digitally signing it with a private key. The transaction data structures usually consist of header, address, value.
+1. Transaction established <br> A node starts a transaction by first creating it and digitally signing it with a private key. The transaction data structures usually consist of header, address, value.
 1. Validating and broadcasting:<br> A transaction is validated before broadcasted. It is propagated usually by using a data-dissemination protocol.
-1. Find a new block:<br> Miners are those who are listening for the transactions verify and include this transaction in the next block to be mined. Miners race to find a new block and get rewarded.
-1. New block found:<br> Once a miner solves the POW problem(puzzle), the newly mined block is broadcasted to the network. The nodes verify the block and propagate the block further, and confirmations start to generate.
+1. Find a new block <br> Miners are those who are listening for the transactions verify and include this transaction in the next block to be mined. Miners race to find a new block and get rewarded.
+1. New block found <br> Once a miner solves the POW problem(puzzle), the newly mined block is broadcasted to the network. The nodes verify the block and propagate the block further, and confirmations start to generate.
 <p>Once the block is generated it now becomes part of the blockchain(ledger) and the next block links itself cryptographically back to this block. The link is called a hash point.</p>
 <img src="https://i.imgur.com/K08Z1r7.jpg" width="400">
 
 #### Types of blockchain 
 There are basically 4 main types of blockchain: public blockchains, private blockchains, semi-private blockchains, and sidechains. We will briefly describe each type.
-1. Public blockchain:<br> As the name itself suggests these are publically open-sourced. Anyone can participate as a node in the decision-making process.
-1. Private blockchain:<br> Those blockchains which are private. It is open only to a consortium or group of individuals.
-1. Semi-Private:<br> With semi-private blockchain, part of the blockchain is private and part of it is public.
-1. Sidechains:<br> A sidechain is a separate blockchain attached to the main chain. A user on the parent chain first has to send their coins to an output address, where the coins become locked so the user is unable to spend them elsewhere. Once a transaction has been completed, a confirmation is communicated across the chains followed by a waiting period for extra security. After the waiting period, the equivalent number of coins is released on the sidechain, allowing the user to access and spend them there. The reverse happens when moving back from a sidechain to the main chain. This is called a two-way sidechain and another type of sidechain is a one-way pegged sidechain where coins are burnt(Remember? we talked about this earlier) as proof of an adequate stake. Burnt mechanism is used to bootstrap a new currency or introduce scarcity, which results in the increased value of the coin. This mechanism is called POB(Proof of Burn) which is used as an alternative method for distributed consensus to POW(Proof of work) and POS(Proof of stake). 
+1. Public blockchain <br> As the name itself suggests these are publically open-sourced. Anyone can participate as a node in the decision-making process.
+1. Private blockchain <br> Those blockchains which are private. It is open only to a consortium or group of individuals.
+1. Semi-Private <br> With semi-private blockchain, part of the blockchain is private and part of it is public.
+1. Sidechains <br> A sidechain is a separate blockchain attached to the main chain. A user on the parent chain first has to send their coins to an output address, where the coins become locked so the user is unable to spend them elsewhere. Once a transaction has been completed, a confirmation is communicated across the chains followed by a waiting period for extra security. After the waiting period, the equivalent number of coins is released on the sidechain, allowing the user to access and spend them there. The reverse happens when moving back from a sidechain to the main chain. This is called a two-way sidechain and another type of sidechain is a one-way pegged sidechain where coins are burnt(Remember? we talked about this earlier) as proof of an adequate stake. Burnt mechanism is used to bootstrap a new currency or introduce scarcity, which results in the increased value of the coin. This mechanism is called POB(Proof of Burn) which is used as an alternative method for distributed consensus to POW(Proof of work) and POS(Proof of stake). 
 <p> Note that fundamentally all these blockchains are distributed ledgers and fall under the top-level category of DLTs(Distributed ledger tech).</p>
 
 #### CAP theorem and blockchain
@@ -41,15 +41,15 @@ The CAP theorem states that any distributed system cannot have consistency, avai
 - **A**vailability
 - **P**artition tolerance
 <img src="https://hazelcast.com/wp-content/uploads/2020/06/cap-theorem-diagram-800x753.png" width="300px">
-1. Consistency:<br> It is a property that ensures that all nodes in a distributed system have a single, current, and identical copy of data.
-2. Availability: <br>It means that the nodes in the system are up, accessible for use, and are accepting incoming requests and responding with data without any failures as and when required. In simple words, data is available at each node and the nodes are responding to requests. The potential of availability, in Amazon’s paper on Dynamo, is explained as follows.
+1. Consistency <br> It is a property that ensures that all nodes in a distributed system have a single, current, and identical copy of data.
+2. Availability <br>It means that the nodes in the system are up, accessible for use, and are accepting incoming requests and responding with data without any failures as and when required. In simple words, data is available at each node and the nodes are responding to requests. The potential of availability, in Amazon’s paper on Dynamo, is explained as follows.
 <blockquote>
     <p>For example, customers should be able to view and add items to their shopping cart even if disks are failing, network routes are flapping, or data centers are being destroyed by tornados.</p>
 </blockquote>
 
-3. Partition tolerance:<br>It ensures that if a group of nodes is unable to communicate with other nodes due to network failures, the distributed system continues to operate correctly. This can occur due to network and node failure.
+3. Partition tolerance <br>It ensures that if a group of nodes is unable to communicate with other nodes due to network failures, the distributed system continues to operate correctly. This can occur due to network and node failure.
 <p> Now that we know what CAP is, we can prove a distributed system can never have three simultaneously. Suppose there is a system that satisfies three of the principle.</p>
- Say we have a variable v with a value that is shared by nodes G1 and G2. A client (let's call him C) now sends a message to G1 requesting that the value of v be changed to v. Because there is no communication link (partition tolerance) between G1 and G2, this adjustment is effectively not reflected in G2. As a result, node G2 returns the previous value v when the client requests a select for value v. This demonstrates a system inconsistency. Based on our earlier premise that CAP is met, we arrive at a contradiction. 
+ Say we have a variable v with a value that is shared by nodes G1 and G2. A client (let's call him C) now sends a message to G1 requesting that the value of v be changed to v'. Because there is no communication link (partition tolerance) between G1 and G2, this adjustment is effectively not reflected in G2. As a result, node G2 returns the previous value v when the client requests a select for value v. This demonstrates a system inconsistency. Based on our earlier premise that CAP is met, we arrive at a contradiction. 
  <p>As a result, we conclude that all of the CAP principles cannot be met at the same time.</p>
 
 
