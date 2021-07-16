@@ -6,7 +6,7 @@ The first thing that I do whenever studying a new domain is I look into every ne
 - P2P: <br>It means every node on the network is interconnected to each other with no central governing body.
 - Distributed ledger:<br> It means that a ledger is spread across all over the network and each node holds on to a copy of the complete ledger. Blockchain is based on this technology. 
 - Hashing:<br> It plays a vital role in the blockchain. Hashing means converting plain text into a hashed value using different hash functions. You might have heard *Md5*(Message digest) before, if not it is one of among hash functions used in hashing. Similarly, there are other hash functions as well like SHA(Secure hash algorithm), RIPEMD, Whirlpool, so on and so forth.
-- Burnt: <br>"Coin Burn", it not what it says. We don't need to burn our coins. It simply means that the coins are sent to an address that is unspendable and which are irrecoverable.
+- Burnt: <br>"Coin Burn" does not mean what it claims. We don't have to destroy our currency. It simply implies that the coins are transferred to an unspendable and irrecoverable address.
 - Consensus:<br> It is an agreement among peers to agree on a proposed state or value. It is the backbone of a blockchain.
 - POW(Proof of work):<br> A type of consensus mechanism which is a proof that enough computational resources have been spent in order to build a valid block.
 - POS(Proof of stack):<br> It is also a type of consensus mechanism which works on the idea that a user has an adequate stake in the system.
