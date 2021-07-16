@@ -1,8 +1,8 @@
 # Site settings
 title: Blog
-email: example@gmail.com
+email: ankusth@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
-  Core developer 
+  -Core developer 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ankusth.github.io" # the base hostname & protocol for your site
 #twitter_username: lomi525
